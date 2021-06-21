@@ -256,7 +256,7 @@ section > small {
 #section9 > div {
     position: fixed;
     top: 43%;
-    right: 1.5%;
+    right: 7rem;
     justify-content: right;
     text-align: right;
 }
@@ -264,17 +264,17 @@ section > small {
 #section3 > h2,
 #section4 > h2 {
     top: 42%;
-    right: 7%;
+    right: 7rem;
     text-align: right;
 }
 #section5 > h2 {
     top: 32.9%;
-    right: 7%;
+    right: 7rem;
     text-align: right;
 }
 #section9 > h2 {
     top: 1%;
-    right: 1.5%;
+    right: 1.5rem;
     text-align: right;
 }
 /* contact page */
