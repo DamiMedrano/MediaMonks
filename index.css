@@ -21,6 +21,7 @@
     font-family: 'klavika-light', sans-serif;
     color: #fcfcfc;
 }
+
 a,
 a:hover {
     text-decoration: none;
@@ -299,14 +300,15 @@ i {
 }
 
 /* logo */
-
+.logo img {
+    width: 83px;
+    height: 41px;
+}
 .logo {
-    display: flex;
     position: fixed;
-    bottom: 0;
-    right: 3rem;
-    width: 6rem;
-    height: 6rem;
+    bottom: 1.5rem;
+    right: 2rem;
+    align-content: center;
 }
 
 /* tablets , notebooks*/
@@ -359,7 +361,7 @@ i {
         font-size: 2.5rem;
     }
     .logo {
-        top: 0px;
+        top: 0;
         left: 1rem;
         width: 4rem;
         height: 4rem;
@@ -368,6 +370,14 @@ i {
         border-bottom-right-radius: 25%;
         padding: 0 1rem 0;
     }
+    .logo img {
+        position: fixed;
+        left: 1.6rem;
+        top: 0.5rem;
+        width: 78px;
+        height: 38px;
+    }
+
     #section0 > h2,
     #section1 > h2,
     #section7 > h2,
